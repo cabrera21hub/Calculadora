@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <div id="cuerpo">
+        <input type="text" id="resultado" readonly>
+        <button onclick="numero7()">7</button>
+        <button onclick="numero8()">8</button>
+        <button onclick="numero9()">9</button>
+        <button id="impo" onclick="division()">/</button>
+
+        <button onclick="numero4()">4</button>
+        <button onclick="numero5()">5</button>
+        <button onclick="numero6()">6</button>
+        <button id="impo" onclick="multiplicacion()">*</button>
+
+        <button onclick="numero1()">1</button>
+        <button onclick="numero2()">2</button>
+        <button onclick="numero3()">3</button>
+        <button id="impo" onclick="resta()">-</button>
+
+        <button id="impo" onclick="punto()">.</button>
+        <button onclick="numero0()">0</button>
+        <button id="impo" onclick="igual()">=</button>
+        <button id="impo" onclick="suma()">+</button>
+
+        <button id="impo" onclick="cambiarSigno()">+/-</button>
+        <button id="impo" onclick="borrarCE()">CE</button>
+        <button id="impo" onclick="borrarC()">C</button>
+        <button id="impo" onclick="borrarUltimo()">X</button>
+
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+
+</html>
